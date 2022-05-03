@@ -48,21 +48,21 @@ h2 {
   border-radius: 40px 40px 40px 40px;
   text-shadow: -1px -1px 0px black, -1px 1px 0px black, 1px -1px 0px black,
     1px 0px 0px black;
-  display: inline-block;
-  padding-right: 23em;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 10px;
   margin-bottom: 15px;
-
+  display: flex;
   /* box-shadow: -1px -1px 0px black, -1px 1px 0px black, 1px -1px 0px black,
     1px 0px 0px black; */
 }
 
-.alinhamentoBotao {
-  border-radius: 40px 40px 40px 40px;
+#editar,
+#remover {
+  border-radius: 90px 90px 90px 90px;
+  background: white;
+  cursor: pointer;
 }
 
-.hidden {
+#button-style {
   display: none;
+  margin-left: 10px;
+  position: absolute;
 }

@@ -15,7 +15,8 @@ formulario.addEventListener("submit", function (e) {
   e.preventDefault();
 
   if (array[0]) {
-    document.getElementById("userList1").innerHTML = array[0];
+    document.getElementById("listStyleTest").innerHTML = array[0];
+    document.getElementById("button-style").style.display = "block";
   }
   if (array[1]) {
     document.getElementById("userList2").innerHTML = array[1];
