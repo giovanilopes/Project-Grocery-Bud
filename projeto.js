@@ -19,15 +19,19 @@ formulario.addEventListener("submit", function (e) {
     document.getElementById("button-style").style.display = "block";
   }
   if (array[1]) {
-    document.getElementById("userList2").innerHTML = array[1];
+    document.getElementById("listStyleTest2").innerHTML = array[0];
+    document.getElementById("button-style2").style.display = "block";
   }
   if (array[2]) {
-    document.getElementById("userList3").innerHTML = array[2];
+    document.getElementById("listStyleTest3").innerHTML = array[0];
+    document.getElementById("button-style3").style.display = "block";
   }
   if (array[3]) {
-    document.getElementById("userList4").innerHTML = array[3];
+    document.getElementById("listStyleTest4").innerHTML = array[0];
+    document.getElementById("button-style4").style.display = "block";
   }
   if (array[4]) {
-    document.getElementById("userList5").innerHTML = array[4];
+    document.getElementById("listStyleTest5").innerHTML = array[0];
+    document.getElementById("button-style5").style.display = "block";
   }
 });

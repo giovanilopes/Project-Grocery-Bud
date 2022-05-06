@@ -1,18 +1,17 @@
 .blocoCentralizado {
-  width: 600px;
+  width: 50%;
   height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   border-radius: 1rem;
   background: linear-gradient(to top left, #28b487, #7dd56f);
   box-shadow: black 0.3rem 0.3rem 0.3rem;
+  padding-right: 80px;
+  padding-left: 80px;
 }
 
 .alinhamentoInput {
   display: flex;
-  flex-direction: row;
   padding-bottom: 15px;
 }
 
@@ -24,7 +23,7 @@ input[type="text"] {
   border-radius: 40px 0px 0px 40px;
   font-family: "Times New Roman", Times, serif;
   height: 30px;
-  width: 300px;
+  width: 100%;
 }
 
 input[type="submit"] {
@@ -38,31 +37,27 @@ input[type="submit"] {
 
 h2 {
   color: rgb(255, 255, 255);
+  text-align: center;
   font-size: 30px;
   text-shadow: -1px -1px 0px black, -1px 1px 0px black, 1px -1px 0px black,
     1px 0px 0px black;
 }
 
-.listStyle {
-  color: white;
-  border-radius: 40px 40px 40px 40px;
-  text-shadow: -1px -1px 0px black, -1px 1px 0px black, 1px -1px 0px black,
-    1px 0px 0px black;
-  margin-bottom: 15px;
-  display: flex;
-  /* box-shadow: -1px -1px 0px black, -1px 1px 0px black, 1px -1px 0px black,
-    1px 0px 0px black; */
-}
-
-#editar,
-#remover {
-  border-radius: 90px 90px 90px 90px;
-  background: white;
+.trashcan {
   cursor: pointer;
+  width: 15px;
+  height: 15px;
 }
 
-#button-style {
+#button-style,
+#button-style2,
+#button-style3,
+#button-style4,
+#button-style5 {
   display: none;
-  margin-left: 10px;
-  position: absolute;
+}
+
+.divbutton {
+  display: flex;
+  justify-content: space-between;
 }
